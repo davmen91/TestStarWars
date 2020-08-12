@@ -1,0 +1,131 @@
+[
+    {
+        "model": "person.person",
+        "pk": 1,
+        "fields": {
+            "name": "Luke Skywalker",
+            "height": "172",
+            "mass": "77",
+            "hair_color": "blond",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "19BBY",
+            "gender": "male",
+            "homeworld": 1,
+            "create_at": "2020-08-06T09:37:41.287Z"
+        }
+    },
+    {
+        "model": "planet.planet",
+        "pk": 1,
+        "fields": {
+            "name": "Tatooine",
+            "rotation_period": "23",
+            "orbital_period": "304",
+            "diameter": "10465",
+            "climate": "arid",
+            "gravity": "1 standard",
+            "terrain": "desert",
+            "surface_water": "1",
+            "population": "200000"
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 1,
+        "fields": {
+            "title": "Film",
+            "episode_id": 1,
+            "opening_crawl": "Desc",
+            "director": "Director",
+            "producer": "Propducer",
+            "release_date": "2020-08-06",
+            "people": [
+                1
+            ],
+            "planets": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 2,
+        "fields": {
+            "title": "a",
+            "episode_id": 1,
+            "opening_crawl": "aasdasd",
+            "director": "Arandu",
+            "producer": "Sr",
+            "release_date": "1977-06-19",
+            "people": [],
+            "planets": []
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 3,
+        "fields": {
+            "title": "b",
+            "episode_id": 1,
+            "opening_crawl": "aasdasd",
+            "director": "Arandu",
+            "producer": "Sr",
+            "release_date": "1977-06-19",
+            "people": [
+                1
+            ],
+            "planets": []
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 4,
+        "fields": {
+            "title": "c",
+            "episode_id": 1,
+            "opening_crawl": "aasdasd",
+            "director": "Arandu",
+            "producer": "Sr",
+            "release_date": "1977-06-19",
+            "people": [
+                1
+            ],
+            "planets": []
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 5,
+        "fields": {
+            "title": "d",
+            "episode_id": 1,
+            "opening_crawl": "aasdasd",
+            "director": "Arandu",
+            "producer": "Sr",
+            "release_date": "1977-06-19",
+            "people": [
+                1
+            ],
+            "planets": []
+        }
+    },
+    {
+        "model": "film.film",
+        "pk": 6,
+        "fields": {
+            "title": "d",
+            "episode_id": 1,
+            "opening_crawl": "aasdasd",
+            "director": "Arandu",
+            "producer": "Sr",
+            "release_date": "1977-06-19",
+            "people": [
+                1
+            ],
+            "planets": [
+                1
+            ]
+        }
+    }
+]

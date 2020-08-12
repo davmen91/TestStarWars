@@ -1,0 +1,17 @@
+[
+    {
+        "fields": {
+            "climate": "arid",
+            "surface_water": "1",
+            "name": "Tatooine",
+            "diameter": "10465",
+            "rotation_period": "23",
+            "terrain": "dessert",
+            "gravity": "1 standard",
+            "orbital_period": "304",
+            "population": "200000"
+        },
+        "model": "planet.planet",
+        "pk": 1
+    }
+]

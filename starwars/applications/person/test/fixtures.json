@@ -1,0 +1,18 @@
+[
+    {
+        "fields": {
+            "name": "Luke Skywalker",
+            "gender": "male",
+            "skin_color": "fair",
+            "hair_color": "blond",
+            "height": "172",
+            "eye_color": "blue",
+            "mass": "77",
+            "homeworld": 1,
+            "birth_year": "19BBY",
+            "create_at": "2020-08-10"
+        },
+        "model": "person.person",
+        "pk": 1
+    }
+]
